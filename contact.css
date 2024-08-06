@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: inherit;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .contact-hed {
+    display: flex;
+    justify-content: space-between;
+  }
+  header{
+      background-color: #b8e0b3;
+  }
+  .hed-right ul {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+  .hed-right button {
+    padding: 17px 23px;
+    border-radius: 40px;
+    border: none;
+    color: #fff;
+    background-color: #b8e0b3;
+  }
+  .murojat {
+    display: flex;
+    flex-direction: column;
+    row-gap: 200px;
+  }
+  .ecologiya-vazirligi {
+    display: flex;
+    /* gap: 200px; */
+    justify-content: space-between;
+  }
+  .ecologiya-vazirligi h4 {
+    width: 800px;
+    font-size: 30px;
+  }
+  .ecologiya-vazirligi a {
+    position: relative;
+    top: 400px;
+    right: 260px;
+  }
+  .ecologiya-vazirligi a button {
+    padding: 17px 23px;
+    border-radius: 40px;
+    border: none;
+    background-color: #b8e0b3;
+    color: #fff;
+  }
+  .gai-hodimlari {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-right: 300px;
+  }
+  .gai-hodimlari h4 {
+    width: 800px;
+    font-size: 30px;
+  }
+  .gai-hodimlari a {
+    position: relative;
+    top: 400px;
+    right: 260px;
+  }
+  .gai-hodimlari a button {
+    padding: 17px 23px;
+    border-radius: 40px;
+    border: none;
+    background-color: #b8e0b3;
+    color: #fff;
+  }
+  
